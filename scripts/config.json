@@ -1,0 +1,14 @@
+{
+    "Conference": [
+        {"name":"ACL", "year": "2026"},
+        {"name":"EMNLP", "year": "2026"},
+        {"name":"NAACL", "year": "2026"},
+        {"name":"COLM", "year": "2026"},
+        {"name":"CoNLL", "year": "2026"},
+        {"name":"TACL", "year": "2026"}
+    ],
+    "Keywords": [
+        "KG",
+        "Knowledge Graph"
+    ]
+}
