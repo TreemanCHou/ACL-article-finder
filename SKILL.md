@@ -1,7 +1,6 @@
 ---
 name: acl-article-finder
 description: Find ACL Anthology papers for the user's research interests. Use when the user asks to search ACL, EMNLP, NAACL, CoNLL, TACL, or ACL Anthology papers by topic, venue, or year.
-disable-model-invocation: true
 ---
 
 # ACL Article Finder
