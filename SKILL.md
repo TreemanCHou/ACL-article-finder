@@ -64,7 +64,6 @@ ALL PAPERS IS LOADED.
 
 6. 向用户汇报时，输出相关论文列表即可。每条建议至少包含论文标题、来源刊物和年份、PDF 链接。必要时简短说明为什么相关。
 
-
 ## 输出格式
 
 默认使用 Markdown 列表：
@@ -79,6 +78,7 @@ ALL PAPERS IS LOADED.
 
 ## 注意事项
 
+- 所有脚本文件运行于本 Skill 所在的文件夹，你应该先定位本 Skill 所在的文件夹，再考虑后面提到的各个脚本与文件的相对路径。
 - 不要直接臆造 ACL Anthology 论文信息；以脚本输出的 cache 记录为准。
 - 抓取脚本输出文件为 `scripts/cache/papers.json` 和 `scripts/cache/papers.jsonl`。
 - 分页展示脚本只负责读取 cache，不会重新抓取网页。
